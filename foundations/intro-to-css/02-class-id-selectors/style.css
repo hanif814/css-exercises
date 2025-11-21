@@ -1,1 +1,17 @@
 /* Add CSS Styling */
+.foo {
+    background-color: rgb(255, 152, 153);
+    font-family: "Verdana", "DejaVu", "Sans sans-serif";
+}
+#unique {
+    color: rgba(0, 0, 255);
+    font-size: 36px;
+}
+.multiple {
+    font-size: 24px;
+}
+#unique1 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
