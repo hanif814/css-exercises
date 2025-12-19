@@ -1,6 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Modal</title>
+  </head>
+  <body>
+    <div class="modal">
+      <div class="icon">!</div>
+      <div class="header">Are you sure you want to do that?</div>
+      <button class="close-button">✖</button>
+      <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</div>
+      <button class="continue">Continue</button>
+      <button class="cancel">Cancel</button>
+    </div>
+  </body>
+</html>
+
+<!-- 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Base reset */
 html, body {
   height: 100%;
 }
@@ -8,36 +29,21 @@ html, body {
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
-  background: #bbb;
+  background: #aaa;
   color: #333;
-
+  /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Modal card */
 .modal {
   background: white;
   width: 480px;
-  padding: 20px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
-/* Two-column layout */
-.modal-content {
-  display: flex;
-  align-items: flex-start;
-  gap: 15px;
-}
-
-/* Left column (icon only) */
-.modal-left {
-  flex-shrink: 0;
-}
-
-/* Icon */
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -46,58 +52,26 @@ body {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Right column */
-.modal-right {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  flex: 1;
-}
-
-/* Header row */
-.modal-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Close button */
 .close-button {
   background: #eee;
   border-radius: 50%;
   color: #888;
+  font-weight: 400;
   font-size: 16px;
   height: 24px;
   width: 24px;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   border: 1px solid #eee;
   padding: 0;
-  cursor: pointer;
 }
 
-/* Body text */
-.modal-body {
-  line-height: 1.4;
-  color: #555;
-}
-
-/* Action buttons row */
-.modal-actions {
-  display: flex;
-  gap: 10px;
-}
-
-/* Buttons */
 button {
   cursor: pointer;
   padding: 8px 16px;
@@ -115,3 +89,4 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+-->

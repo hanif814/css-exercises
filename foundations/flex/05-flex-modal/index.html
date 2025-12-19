@@ -8,13 +8,46 @@
     <title>Modal</title>
   </head>
   <body>
+
     <div class="modal">
-      <div class="icon">!</div>
-      <div class="header">Are you sure you want to do that?</div>
-      <button class="close-button">✖</button>
-      <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</div>
-      <button class="continue">Continue</button>
-      <button class="cancel">Cancel</button>
+
+      <!-- Two-column layout -->
+      <div class="modal-content">
+
+        <!-- Left column -->
+        <div class="modal-left">
+          <div class="icon">!</div>
+        </div>
+
+        <!-- Right column -->
+        <div class="modal-right">
+
+          <!-- Header row -->
+          <div class="modal-header">
+            <div class="header">Are you sure you want to do that?</div>
+            <button class="close-button">✖</button>
+          </div>
+
+          <!-- Body text -->
+          <div class="modal-body">
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur excepturi id soluta, numquam minima rerum doloremque
+              eveniet aspernatur beatae commodi. Cupiditate recusandae ad
+              repellendus quidem consectetur sequi amet aspernatur cumque!
+            </p>
+          </div>
+
+          <!-- Action buttons -->
+          <div class="modal-actions">
+            <button class="continue">Continue</button>
+            <button class="cancel">Cancel</button>
+          </div>
+
+        </div>
+      </div>
+
     </div>
+
   </body>
 </html>
